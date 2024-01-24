@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Nuber Game</title>
+    <link rel="stylesheet" href="style.css">
+    <h1>Guess The Number</h1>
+    <main class="container">
+        <h2>Game Started</h2>
+        <div class="gameInfo">
+            <p>Computer Generated Number<br />
+                Guess the number!(1-100)
+            </p>
+
+            <!--dispaly result--->
+            <div id="display">Result</div>
+        </div>
+
+        <!--Guess Number-->
+        <input type="text"
+        placeholder="Guess Number"
+        id="userInput"
+        maxlength="2"/>
+
+        <!--Buttons-->
+        <button onclick="startGame()">Submit</button>
+        <button onclick="reset()">Play again</button>
+
+    </main>
+</head>
+<body>
+
+    
+</body>
+<script src="script.js"></script>
+</html>
